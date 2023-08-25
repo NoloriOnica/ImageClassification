@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('backgroundpic.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#uploadButton {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#uploadButton:hover {
+    background-color: #2980b9;
+}
+input[type="file"] {
+    display: none;
+}
